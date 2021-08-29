@@ -1,6 +1,5 @@
 import React from 'react'
 import { PieChart, Pie, Tooltip} from 'recharts'
-import userData from '../../data/users.json'
 
 const data01 = [
     { name: 'Middle name A', value: 50},

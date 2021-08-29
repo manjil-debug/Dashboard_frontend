@@ -5,6 +5,7 @@ import {Route} from 'react-router-dom';
 import '../src/App.css'
 import Hompage from "./component/Homepage/Hompage";
 
+
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Hompage}/>
         <Route exact path="/users" component={Users}/>
         <Route exact path="/subs" component={Subscriptions}/>
+
       </div>
     </div>
   );

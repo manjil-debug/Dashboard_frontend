@@ -13,6 +13,7 @@ export default function Topbar() {
             <ul>
                 <li><Link to="/users" className="link">Users</Link></li>
                 <li><Link to="/subs" className="link">Subcriptions</Link></li>
+                <li><Link to="/page" className="link">pagitation table</Link></li>
             </ul>
             </div>
             </div>
