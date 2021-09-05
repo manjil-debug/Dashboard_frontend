@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+  li {
+    padding-bottom: 0px;
+    float: left;
+    padding-right: 30px;
+  }
+}

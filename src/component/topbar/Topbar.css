@@ -1,8 +1,4 @@
 .topwrapper {
-  height: 80px;
-  width: 100%;
-}
-.topwrapper {
   display: flex;
   justify-content: space-evenly;
 }

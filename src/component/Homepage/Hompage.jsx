@@ -1,22 +1,23 @@
 import React from 'react'
 import { PieChart, Pie, Tooltip} from 'recharts'
+import Sidebar from '../Sidebar/Sidebar';
 
 const data01 = [
-    { name: 'Middle name A', value: 50},
-    { name: 'Middle name B', value: 25 },
-    { name: 'Middle name C', value: 13 },
-    { name: 'Middle name D', value: 16 },
-    { name: 'Middle name E', value: 64 },
-    { name: 'Middle name F', value: 23 },
+    { name: 'Middle name A', value: 150},
+    { name: 'Middle name B', value: 80 },
+    { name: 'Middle name C', value: 103 },
+    { name: 'Middle name D', value: 49},
+    { name: 'Middle name E', value: 64},
+    { name: 'Middle name F', value: 52},
   ];
 export default function Hompage() {
     return (
-        <div>
+        <div>  
             <h1>Pie Chart For Users And their Middle Name</h1>
-            <PieChart width={1300} height={400}>
+            <PieChart width={500} height={400}>
             <Pie
             dataKey="value"
-            isAnimationActive={true}
+            isAnimationActive={false}
             data={data01}
             cx="50%"
             cy="50%"

@@ -128,7 +128,8 @@ export default function Users() {
             <Table className={classes.table}
             aria-labelledby="tableTitle"
             size= 'small' 
-            aria-label="enhanced table">
+            aria-label="enhanced table"
+            >
             <TableHead>
                 <TableRow>
                         <TableCell><TableSortLabel 
@@ -194,7 +195,7 @@ export default function Users() {
                 <TableRow>
                 <TablePagination
                     rowsPerPageOptions={[5, 10, 50,100, { label: 'All', value: -1 }]}
-                    colSpan={4}
+                    colSpan={5}
                     count={498}
                     rowsPerPage={rowsPerPage}
                     page={page}
